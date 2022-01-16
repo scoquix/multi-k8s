@@ -1,5 +1,5 @@
 # multi-k8s
-Educational project created to learn and understand Kubernetes.
+Educational project created to learn and understand Kubernetes. \
 Repository consists of three javascript applications:
  - client
  - worker
