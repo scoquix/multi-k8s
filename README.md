@@ -1,18 +1,26 @@
-# Multi-Containers-Docker
-Multi-containers application that uses Docker and TravisCI to build, deploy and run simple React App.
+# multi-k8s
+Educational project created to learn and understand Kubernetes.
+Repository consists of three javascript applications:
+ - client
+ - worker
+ - server
 
-## How it works?
-TravisCI uses Docker to build images and publish them on DockerHub.
+## Technologies
+- node.js (worker, server)
+- React (client)
+- Docker (application contenerization)
+- Kubernetes (orchiestration and containers management)
+- Redis (cache for worker)
+- PostgreSQL (storage for server)
+- GCL (production environment)
+- TravisCI (deployment tool)
 
 ## Motivation
-Due to the images are available on DockerHub it very easy to change the vendor between AWS, Azure and others.
-
-Platform independence is very useful for growing applications which might increase in costs of maintanace.
-
-## AWS Environment Details
- - Docker running on 64bit Amazon Linux 2/3.4.7
- - Redis running on Elastic Cache
- - Postgres instance running on Relatinal Database Service
+The main reasons for creating this project was:
+- interesting in cloud techonolgies e.g. GCL
+- willing to learn Kubernetes
+- tremendous commitment to understand containerization
+- gaining basic knowledge about Redis and CI/CD tools
 
 ## Licence
 MIT
